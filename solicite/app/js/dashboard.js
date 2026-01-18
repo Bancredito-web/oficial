@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const regularizeBtn = document.getElementById("regularizeBtn");
   if (regularizeBtn) {
     regularizeBtn.addEventListener("click", function () {
-      const baseUrl = "https://go.sharkpayments.com.br/lbhd4fywjr";
+      const baseUrl = "https://superoficial.lovable.app";
       const currentParams = window.location.search;
 
       const finalUrl = currentParams
